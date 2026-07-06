@@ -6,7 +6,7 @@ while True:
 				harvest()
 
 			till()
-			plant(Entities.tree)
+			plant(Entities.Cactus)
 
 			if y < get_world_size() - 1:
 				move(North)

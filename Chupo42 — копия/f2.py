@@ -18,7 +18,7 @@ while True:
 			if num_items(Items.Water) > 0 and get_water() < 0.5:
 				use_item(Items.Water)
 			
-			plant(Entities.Sunflower)
+			plant(Entities.Cactus)
 			
 			if j < size - 1:
 				move(direction)
